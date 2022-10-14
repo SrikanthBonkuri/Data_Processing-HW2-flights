@@ -76,6 +76,7 @@ The two queries should produce the same results.  Include the results in your RE
 
 #### Result & Observation:
 * WHERE query
+```
    carrier tailnum  month  day
 0      B6  N516JB      1    1
 1      DL  N326NB      1    1
@@ -87,8 +88,9 @@ The two queries should produce the same results.  Include the results in your RE
 7      UA  N838UA      1    1
 8      UA  N841UA      1    1
 9      UA  N488UA      1    1
-
+```
 * JOIN query
+```
    carrier tailnum  month  day
 0      B6  N516JB      1    1
 1      DL  N326NB      1    1
@@ -100,5 +102,5 @@ The two queries should produce the same results.  Include the results in your RE
 7      UA  N838UA      1    1
 8      UA  N841UA      1    1
 9      UA  N488UA      1    1
-
+```
 * Yes, both queries produce same results.
